@@ -1,0 +1,52 @@
+{
+  "testInfo": {
+    "testName": "Prueba de carga API - Normas Internacionales",
+    "timestamp": "2025-06-05T09:31:16.436Z",
+    "testDuration": 212.3695789,
+    "vusMax": null
+  },
+  "metrics": {
+    "http": {
+      "requestsTotal": 358,
+      "requestsPerSecond": 1.6857404994364755,
+      "failedRequests": 0,
+      "failureRate": 0,
+      "duration": {
+        "avg": 233.63738882681545,
+        "min": 130.1797,
+        "med": 192.76805000000002,
+        "max": 2766.2847,
+        "p90": 293.10705,
+        "p95": 336.64622499999973
+      }
+    },
+    "checks": {
+      "passes": 1402,
+      "failures": 30,
+      "passRate": "97.91%"
+    },
+    "iterations": {
+      "total": 358,
+      "perSecond": 1.6857404994364755,
+      "avgDuration": 3837.1878600558675
+    },
+    "network": {
+      "dataReceived": {
+        "total": 209822,
+        "rate": 988.0040309294977
+      },
+      "dataSent": {
+        "total": 48906,
+        "rate": 230.28722029452592
+      }
+    }
+  },
+  "checkResults": {},
+  "stages": [
+      {"duration":"30s","target":5},
+      {"duration":"1m0s","target":5},
+      {"duration":"30s","target":10},
+      {"duration":"1m0s","target":10},
+      {"duration":"30s","target":0}
+    ]
+}
