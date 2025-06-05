@@ -1,0 +1,52 @@
+{
+  "testInfo": {
+    "testName": "Prueba de carga para equipo interno pequeño",
+    "timestamp": "2025-06-05T06:16:31.127Z",
+    "testDuration": 211.75763080000002,
+    "vusMax": null
+  },
+  "metrics": {
+    "http": {
+      "requestsTotal": 373,
+      "requestsPerSecond": 1.7614477390535672,
+      "failedRequests": 0,
+      "failureRate": 0,
+      "duration": {
+        "avg": 63.87745442359253,
+        "min": 53.4074,
+        "med": 57.7948,
+        "max": 1563.2888,
+        "p90": 61.7686,
+        "p95": 63.39477999999999
+      }
+    },
+    "checks": {
+      "passes": 745,
+      "failures": 1,
+      "passRate": "99.87%"
+    },
+    "iterations": {
+      "total": 373,
+      "perSecond": 1.7614477390535672,
+      "avgDuration": 3676.7451064343154
+    },
+    "network": {
+      "dataReceived": {
+        "total": 2969008,
+        "rate": 14020.783991506578
+      },
+      "dataSent": {
+        "total": 37140,
+        "rate": 175.3891931057627
+      }
+    }
+  },
+  "checkResults": {},
+  "stages": [
+      {"duration":"30s","target":5},
+      {"duration":"1m0s","target":5},
+      {"duration":"30s","target":10},
+      {"duration":"1m0s","target":10},
+      {"duration":"30s","target":0}
+    ]
+}
