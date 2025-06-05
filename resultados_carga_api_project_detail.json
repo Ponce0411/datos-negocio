@@ -1,0 +1,52 @@
+{
+  "testInfo": {
+    "testName": "Prueba de carga API - Detalle de Proyecto",
+    "timestamp": "2025-06-05T11:05:48.087Z",
+    "testDuration": 213.8953133,
+    "vusMax": null
+  },
+  "metrics": {
+    "http": {
+      "requestsTotal": 375,
+      "requestsPerSecond": 1.7531940939446475,
+      "failedRequests": 0,
+      "failureRate": 0,
+      "duration": {
+        "avg": 147.84170479999995,
+        "min": 120.6247,
+        "med": 138.236,
+        "max": 553.3123,
+        "p90": 160.1548,
+        "p95": 162.84683
+      }
+    },
+    "checks": {
+      "passes": 2247,
+      "failures": 3,
+      "passRate": "99.87%"
+    },
+    "iterations": {
+      "total": 375,
+      "perSecond": 1.7531940939446475,
+      "avgDuration": 3655.0294152000006
+    },
+    "network": {
+      "dataReceived": {
+        "total": 306669,
+        "rate": 1433.7340789224295
+      },
+      "dataSent": {
+        "total": 44690,
+        "rate": 208.93398415569678
+      }
+    }
+  },
+  "checkResults": {},
+  "stages": [
+      {"duration":"30s","target":5},
+      {"duration":"1m0s","target":5},
+      {"duration":"30s","target":10},
+      {"duration":"1m0s","target":10},
+      {"duration":"30s","target":0}
+    ]
+}
